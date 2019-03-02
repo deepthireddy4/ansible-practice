@@ -2,7 +2,7 @@
 - hosts: appserver
   become : yes
   tasks:
-  - name: install open jdk 8
+  - name: install openjdk 8
     yum:
       name: java-1.8.0-openjdk.x86_84
       state: present
